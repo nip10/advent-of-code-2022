@@ -25,14 +25,3 @@ func main() {
 	}
 	fmt.Println(index)
 }
-
-// Hardcoded solution
-// if inputStringWithoutWindowsNewLines[i] != inputStringWithoutWindowsNewLines[i+1] &&
-//  inputStringWithoutWindowsNewLines[i] != inputStringWithoutWindowsNewLines[i+2] &&
-//  inputStringWithoutWindowsNewLines[i] != inputStringWithoutWindowsNewLines[i+3] &&
-//  inputStringWithoutWindowsNewLines[i+1] != inputStringWithoutWindowsNewLines[i+2] &&
-//   inputStringWithoutWindowsNewLines[i+1] != inputStringWithoutWindowsNewLines[i+3] &&
-// 	inputStringWithoutWindowsNewLines[i+2] != inputStringWithoutWindowsNewLines[i+3] {
-// 	index = i + 4
-// 	break
-// }
