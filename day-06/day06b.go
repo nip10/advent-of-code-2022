@@ -12,7 +12,7 @@ func main() {
 	inputStringWithoutWindowsNewLines := strings.ReplaceAll(inputString, "\r\n", "\n")
 	var index int = -1
 	var dict = make(map[string]int)
-	for charIndex := range inputStringWithoutWindowsNewLines {
+	for charIndex := range inputStringWithoutWindowsNewLines[:len(inputStringWithoutWindowsNewLines)-14] {
 		for i := 0; i < 14; i++ {
 			dict[string(inputStringWithoutWindowsNewLines[charIndex+i])] += 1
 		}
